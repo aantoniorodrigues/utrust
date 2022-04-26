@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "ethereumjs-tx": "^2.1.2",
+    "get-eth-price": "^1.0.0",
+    "prompt-sync": "^4.2.0",
+    "web3": "^1.7.3"
+  },
+  "name": "utrust",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antonio Rodrigues",
+  "license": "ISC",
+  "devDependencies": {},
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aantoniorodrigues/utrust.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aantoniorodrigues/utrust/issues"
+  },
+  "homepage": "https://github.com/aantoniorodrigues/utrust#readme"
+}
