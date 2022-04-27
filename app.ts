@@ -43,7 +43,7 @@ const networkParameters: NetworkParameters = {
 }
 
 const networkName: string = promptSync(`Network: ["ethereum", "rinkeby", "ropsten"]`);
-// Accessing the Ropsten testnet
+// Accessing the network
 const web3 = new Web3(networkParameters[networkName].rpc_url);
 
 async function getEthEurConversionRate(): Promise<void> {
